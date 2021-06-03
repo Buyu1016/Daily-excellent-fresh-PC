@@ -1,6 +1,6 @@
 <template>
-  <div class="message-manage-container">
-      数据总览
+  <div class="retrieve-password-container">
+      找回密码
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 {
-  "name": "daily-excellent-fresh",
+  "name": "daily-excellent-fresh-pc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,8 @@
     "ant-design-vue": "^1.2.4",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "echarts": "^5.1.1",
+    "js-cookie": "^2.2.1",
     "querystring": "^0.2.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -44,6 +46,27 @@
     ],
     "parserOptions": {
       "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": "off",
+      "no-alert": "off",
+      "no-underscore-dangle": 0,
+      "no-param-reassign": [
+        "error",
+        {
+          "props": true,
+          "ignorePropertyModificationsFor": [
+            "e",
+            "ctx",
+            "req",
+            "request",
+            "res",
+            "response",
+            "state",
+            "store"
+          ]
+        }
+      ]
     }
   },
   "browserslist": [

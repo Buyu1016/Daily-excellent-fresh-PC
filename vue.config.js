@@ -6,4 +6,11 @@ module.exports = {
       },
     },
   },
+  devServer: {
+    proxy: {
+      '/edit': {
+        target: 'https://mallapi.duyiedu.com/',
+      },
+    },
+  },
 };
